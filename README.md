@@ -5,6 +5,8 @@ Two scripts for creating and cleaning up timestamped droplet snapshots via `doct
 - **`snapshot.sh`** — creates a snapshot, watches it until it completes, and records it to a state file.
 - **`snapshot-cleanup.sh`** — deletes snapshots that were recorded by `snapshot.sh`.
 
+Snapshots are operations that allow backing up your server and files before making changes.
+
 ## Requirements
 
 - [`doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install/) — DigitalOcean's official CLI
