@@ -11,7 +11,8 @@ Snapshots are operations that allow backing up your server and files before maki
 
 - [`doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install/) — DigitalOcean's official CLI
 - [`jq`](https://jqlang.org/) — used to parse `doctl`'s JSON output
-- A DigitalOcean API token with **Read and Write** scope
+- A DigitalOcean API token with neccesary **Read and Write** scopes.
+  
 
 ## Setup
 
