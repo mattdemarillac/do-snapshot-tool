@@ -20,7 +20,7 @@ Snapshots are operations that allow backing up your server and files before maki
 
 ```bash
 # macOS
-brew install doctl jq
+brew install jq
 brew install doctl
 
 # Ubuntu/Debian
