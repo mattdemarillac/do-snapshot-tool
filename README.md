@@ -65,7 +65,7 @@ doctl compute droplet list
 Example:
 
 ```bash
-./snapshot.sh 221213419 web-server
+./snapshot.sh 221213446 web-server
 ```
 
 This creates a snapshot named like `web-server-20260723-143022`, polls every 5 seconds until it's done, and prints the result. On success, the snapshot's ID, name, droplet ID, and creation time are appended to a state file (default: `/tmp/do_snapshots.txt`).
@@ -97,7 +97,7 @@ By default this lives at `/tmp/do_snapshots.txt`, which is cleared on most syste
 
 ```bash
 export DO_SNAPSHOT_STATE_FILE="$HOME/.do_snapshots.txt"
-./snapshot.sh 221213419 web-server
+./snapshot.sh 221213466 web-server
 ./snapshot-cleanup.sh --last
 ```
 
